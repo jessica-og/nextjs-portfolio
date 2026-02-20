@@ -7,12 +7,7 @@ const tailwindConfig = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    screens: {
-      sm: "480px",
-      md: "720px",
-      lg: "976px",
-      xl: "1440px",
-    },
+   
     container: {
       center: true,
       padding: "2rem",

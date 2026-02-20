@@ -23,35 +23,35 @@ const Navbar = () => {
     {
       title: 'Home',
       icon: (
-        <HomeIcon className='h-full w-full ' />
+        <HomeIcon className='h-full w-full text-white' />
       ),
       href: '/',
     },
     {
       title: 'About',
       icon: (
-        <User className='h-full w-full ' />
+        <User className='h-full w-full text-white' />
       ),
       href: '/about',
     },
     {
       title: 'Skills',
       icon: (
-        <Briefcase className='h-full w-full ' />
+        <Briefcase className='h-full w-full text-white' />
       ),
       href: '/skills',
     },
     {
       title: 'Education',
       icon: (
-        <GraduationCap className='h-full w-full ' />
+        <GraduationCap className='h-full w-full text-white' />
       ),
       href: '/education',
     },
     {
       title: 'Projects',
       icon: (
-        <FolderGit2 className='h-full w-full ' />
+        <FolderGit2 className='h-full w-full text-white' />
       ),
       href: '/projects',
     },
@@ -59,7 +59,7 @@ const Navbar = () => {
     {
       title: 'Contact us',
       icon: (
-        <Mail className='h-full w-full ' />
+        <Mail className='h-full w-full text-white' />
       ),
       href: '/contact',
     },
